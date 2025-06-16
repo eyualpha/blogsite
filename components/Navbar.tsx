@@ -24,7 +24,10 @@ export default async function Navbar() {
         <Link href={"/"} className="hover:text-orange-500 duration-200">
           Home
         </Link>
-        <Link href={"/dashbord"} className="hover:text-orange-500 duration-200">
+        <Link
+          href={"/dashboard"}
+          className="hover:text-orange-500 duration-200"
+        >
           Dashbord
         </Link>
       </div>
